@@ -9,7 +9,8 @@ import { LoginComponent } from './login/login.component';
 import { ErrorComponent } from './error/error.component';
 import { ListTodoComponent } from './list-todo/list-todo.component';
 // import { MainbodyComponent } from './mainbody/mainbody.component';
-// import { FootComponent } from './foot/foot.component';
+import { FootComponent } from './foot/foot.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ListTodoComponent } from './list-todo/list-todo.component';
     ErrorComponent,
     ListTodoComponent,
     // MainbodyComponent,
-    // FootComponent
+    FootComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
