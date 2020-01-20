@@ -11,6 +11,7 @@ import { ListTodoComponent } from './list-todo/list-todo.component';
 // import { MainbodyComponent } from './mainbody/mainbody.component';
 import { FootComponent } from './foot/foot.component';
 import { MenuComponent } from './menu/menu.component';
+import { LogoutComponent } from './logout/logout.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { MenuComponent } from './menu/menu.component';
     ListTodoComponent,
     // MainbodyComponent,
     FootComponent,
-    MenuComponent
+    MenuComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,
