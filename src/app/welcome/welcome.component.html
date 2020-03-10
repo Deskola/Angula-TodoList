@@ -9,3 +9,13 @@
 <div>
 	You can manage your todos <a routerLink="/todos">here</a>
 </div>
+
+<div>
+	You can get a customized Welcome button here
+	<button class="btn btn-info" (click)="getWelcomeMessageWithParam()">Welcome Message</button>
+</div>
+
+<div class="container" *ngIf="welcomeMessage">
+	Your customized Welcome Message is:
+	{{ welcomeMessage }}
+</div>
